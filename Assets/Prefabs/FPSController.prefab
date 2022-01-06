@@ -79,6 +79,8 @@ MonoBehaviour:
     clampVerticalRotation: 1
     MinimumX: -90
     MaximumX: 90
+    MinimumY: -10
+    MaximumY: 10
     smooth: 0
     smoothTime: 5
     lockCursor: 1
@@ -316,7 +318,6 @@ GameObject:
   - component: {fileID: 6267006228575369141}
   - component: {fileID: 6267006228579285491}
   - component: {fileID: 6267006228003043147}
-  - component: {fileID: 6267006228003043146}
   - component: {fileID: 2071054803821683494}
   m_Layer: 0
   m_Name: FirstPersonCharacter
@@ -417,27 +418,6 @@ MonoBehaviour:
   InteractableLayer:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &6267006228003043146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6267006228570778039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4f7976f46cbf1b498b2b9df0d5c02ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  picturePieces:
-  - {fileID: 0}
-  - {fileID: 0}
-  xValues:
-  - 3.47
-  yValues:
-  - 3.47
-  zValues:
-  - 3.47
 --- !u!45 &2071054803821683494
 Skybox:
   m_ObjectHideFlags: 0
