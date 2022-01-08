@@ -1533,7 +1533,7 @@ GameObject:
   - component: {fileID: 8788543550142075539}
   m_Layer: 8
   m_Name: d2 (1)
-  m_TagString: Interactable
+  m_TagString: planet1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1702,7 +1702,7 @@ GameObject:
   - component: {fileID: 2000667727357433107}
   m_Layer: 8
   m_Name: d2
-  m_TagString: Interactable
+  m_TagString: planet1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
