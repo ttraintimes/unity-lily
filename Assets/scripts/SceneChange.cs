@@ -13,7 +13,7 @@ public class SceneChange : MonoBehaviour
          ray = Camera.main.ScreenPointToRay(Input.mousePosition);
          if (Physics.Raycast(ray, out hit) && Input.GetMouseButton(0))
          {
-             if (hit.collider.name == "planet1") 
+             if (hit.collider.name == "d2") 
              {
                  SceneManager.LoadScene("BODYBOX");
              }
