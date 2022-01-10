@@ -715,6 +715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6267006228003043147, guid: 5423a235c299a47dd8f1d452a4036879,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267006228003043147, guid: 5423a235c299a47dd8f1d452a4036879,
+        type: 3}
       propertyPath: crosshairNormal
       value: 
       objectReference: {fileID: 1097005735}
@@ -1816,6 +1821,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812329199356610689, guid: fb665b3820ec24ef3b89187d9c136a45,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812329199356610689, guid: fb665b3820ec24ef3b89187d9c136a45,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812329199356610689, guid: fb665b3820ec24ef3b89187d9c136a45,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7884713208136913875, guid: fb665b3820ec24ef3b89187d9c136a45,
         type: 3}
