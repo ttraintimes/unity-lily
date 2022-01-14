@@ -35,6 +35,15 @@ namespace UnityLibary
             {
                 transform.RotateAround(transform.position, -Vector3.up, 60 * Time.deltaTime);
             }
+             if (Input.GetKey(KeyCode.Q))
+             {
+                 transform.Rotate(Vector3.left, 10.0f * Time.deltaTime);
+             }
+             if (Input.GetKey(KeyCode.E))
+             {
+                 transform.Rotate(Vector3.right, 10.0f * Time.deltaTime);
+             }
+      
 
         }
 
