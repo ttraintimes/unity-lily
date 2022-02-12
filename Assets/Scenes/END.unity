@@ -379,6 +379,16 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 0.4811321
       objectReference: {fileID: 0}
+    - target: {fileID: 4411138811052857299, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 265928123}
+    - target: {fileID: 4411138811052857299, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
     - target: {fileID: 4553056111431610438, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_Color.a
@@ -626,6 +636,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4127b87a94ccf422898780ff26600a52, type: 3}
+--- !u!1 &265928123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7779339693847208751, guid: 4127b87a94ccf422898780ff26600a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 265928122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &542469823
 PrefabInstance:
   m_ObjectHideFlags: 0

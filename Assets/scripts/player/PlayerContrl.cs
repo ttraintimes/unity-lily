@@ -29,7 +29,6 @@ namespace UnityLibary
             {
                 transform.RotateAround(transform.position, Vector3.up, 60 * Time.deltaTime);
             }
-
             // Rotate anticlockwise
             if (Input.GetKey(KeyCode.A))
             {

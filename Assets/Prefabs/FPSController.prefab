@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 980674618844375390}
   - component: {fileID: 1050245928481796623}
   - component: {fileID: 2552623201808179781}
-  - component: {fileID: 5493419634745579731}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Player
@@ -207,18 +206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5493419634745579731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6267006228570778037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdf9a88af0d2d417cb48241d19e3ff00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6267006228570778039
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +218,6 @@ GameObject:
   - component: {fileID: 6267006228568746901}
   - component: {fileID: 6267006228575369141}
   - component: {fileID: 6267006228579285491}
-  - component: {fileID: 6267006228003043147}
   - component: {fileID: 2071054803821683494}
   m_Layer: 0
   m_Name: FirstPersonCharacter
@@ -313,24 +299,6 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6267006228570778039}
   m_Enabled: 1
---- !u!114 &6267006228003043147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6267006228570778039}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  crosshairNormal: {fileID: 0}
-  crosshairInteract: {fileID: 0}
-  InteractionRange: 4
-  InteractableLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!45 &2071054803821683494
 Skybox:
   m_ObjectHideFlags: 0
