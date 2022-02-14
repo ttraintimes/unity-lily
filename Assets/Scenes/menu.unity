@@ -309,6 +309,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3996492035989385447, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3996492036633211903, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
       propertyPath: m_IsActive
@@ -423,6 +428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UICanvas 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996492037337821102, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6288298197642619716, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}

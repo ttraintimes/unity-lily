@@ -1956,6 +1956,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 422.726, y: -709.852, z: -117.772}
+--- !u!1 &1194596610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3996492036633211903, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7147713139209720195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1561922061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2318,6 +2324,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2392308368947607318, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
+      propertyPath: escMenu
+      value: 
+      objectReference: {fileID: 1194596610}
+    - target: {fileID: 2392308368947607318, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
       propertyPath: onMenuAppear.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 88243428}
@@ -2326,6 +2337,26 @@ PrefabInstance:
       propertyPath: onMenuDisppear.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 88243428}
+    - target: {fileID: 3157869532462543241, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996492035989385447, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996492036378302784, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996492036633211903, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3996492037337821090, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2435,6 +2466,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UICanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3996492037337821102, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5907470344503616640, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942626449962204519, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195a22f39fc7d48a6b376543eb0fb1d8, type: 3}
