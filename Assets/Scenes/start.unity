@@ -2235,16 +2235,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3887407280496792052, guid: 632a0962eb48649ca89afd8da0f42971,
-        type: 3}
-      propertyPath: m_Height
-      value: 1.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 3887407280496792052, guid: 632a0962eb48649ca89afd8da0f42971,
-        type: 3}
-      propertyPath: m_Center.z
-      value: -0.24
-      objectReference: {fileID: 0}
     - target: {fileID: 3887407280502306836, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_RootOrder
@@ -2325,11 +2315,6 @@ PrefabInstance:
       propertyPath: camera5
       value: 
       objectReference: {fileID: 359094806}
-    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.94
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3887407280506830292, guid: 632a0962eb48649ca89afd8da0f42971, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 632a0962eb48649ca89afd8da0f42971, type: 3}
