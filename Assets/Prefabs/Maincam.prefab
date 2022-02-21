@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 3887407280496792052}
-  speed: 8
+  speed: 7
   gravity: 5
 --- !u!114 &4640543670380113860
 MonoBehaviour:

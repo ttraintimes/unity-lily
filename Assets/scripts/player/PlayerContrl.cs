@@ -38,10 +38,10 @@ namespace UnityLibary {
             controller.Move(move * speed * Time.deltaTime);
 
             if (Input.GetKey(KeyCode.D)) {
-                transform.RotateAround(transform.position, Vector3.up, 20 * Time.deltaTime);
+                transform.RotateAround(transform.position, Vector3.up, 50 * Time.deltaTime);
             }
             if (Input.GetKey(KeyCode.A)) {
-                transform.RotateAround(transform.position, -Vector3.up, 20 * Time.deltaTime);
+                transform.RotateAround(transform.position, -Vector3.up, 50 * Time.deltaTime);
             }
             if (Input.GetKey(KeyCode.Q)) {
                 transform.Rotate(Vector3.left, 3.0f * Time.deltaTime);
