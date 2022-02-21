@@ -2,8 +2,6 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
-//Script for moving a gameObject smoothly
-//Usage: Attach the character controller component to the gameobject that you want to move
 //Souce: https://stackoverflow.com/questions/62391105/how-to-add-jump-in-c-sharp-script-in-unity3d-using-character-controller
 //Souce: https://github.com/fiqryq/Unity-Switch-Camera/blob/main/switchViewCam.cs
 
