@@ -552,6 +552,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 5.1850004, y: -180.24399, z: 2.891}
+--- !u!114 &641079343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
+    type: 3}
+  m_PrefabInstance: {fileID: 5283469764651509023}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec47c347f25b945cbae568f4f97de8ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &682606214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,12 +1540,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 422.726, y: -709.852, z: -117.772}
---- !u!1 &1194596610 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3996492036633211903, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
-    type: 3}
-  m_PrefabInstance: {fileID: 7147713139209720195}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1561922061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1967,19 +1973,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2392308368947607318, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
-      propertyPath: escMenu
-      value: 
-      objectReference: {fileID: 1194596610}
-    - target: {fileID: 2392308368947607318, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
-        type: 3}
       propertyPath: onMenuAppear.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 641079343}
     - target: {fileID: 2392308368947607318, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
       propertyPath: onMenuDisppear.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 641079343}
     - target: {fileID: 3157869532462543241, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
       propertyPath: m_IsActive
