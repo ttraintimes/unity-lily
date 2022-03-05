@@ -2764,6 +2764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: firewithbase
       objectReference: {fileID: 0}
+    - target: {fileID: 6281147460186292276, guid: c351ff8dc8dac429ab9c47304f041022,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.102
+      objectReference: {fileID: 0}
     - target: {fileID: 8538332394698142301, guid: c351ff8dc8dac429ab9c47304f041022,
         type: 3}
       propertyPath: m_RootOrder
