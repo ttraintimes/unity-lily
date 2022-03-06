@@ -22,9 +22,10 @@ namespace UnityLibary {
     //
         public CharacterController controller;
 
-        public float speed=7f;
-        // public float jumpSpeed = 2.0f;
-        public float gravity=5.0f;
+        //public float speed=7f;
+        public float speed;
+      //  public float jumpSpeed;
+        public float gravity;
         private Vector3 movingDirection=Vector3.zero;
 
         void Start()
@@ -60,14 +61,14 @@ namespace UnityLibary {
         }
         //
             if (Input.GetKey(KeyCode.LeftShift)) {
-                speed=14f;
+                speed=speed+3f;
             }
-            else {
-                speed=7f;
-            }
+           // else {
+           //     speed=7f;
+           // }
 
             if (controller.isGrounded) {
-                // movingDirection.y = jumpSpeed;
+              //  movingDirection.y = jumpSpeed;
                 movingDirection.y=1.0f;
             }
 

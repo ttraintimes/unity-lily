@@ -444,7 +444,6 @@ GameObject:
   - component: {fileID: 4647991206868412667}
   - component: {fileID: 2155986085879228349}
   - component: {fileID: 733531845053539669}
-  - component: {fileID: 6428540720774403422}
   m_Layer: 0
   m_Name: leg (2)
   m_TagString: Untagged
@@ -513,22 +512,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!111 &6428540720774403422
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5538781881153525788}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 0}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &6469855235850884953
 GameObject:
   m_ObjectHideFlags: 0
