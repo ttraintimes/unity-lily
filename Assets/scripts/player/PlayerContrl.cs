@@ -29,8 +29,8 @@ namespace UnityLibary {
 
         void Start()
         {
-        firstCamera.GetComponent<Camera>().enabled = false;
-        secondCamera.GetComponent<Camera>().enabled = true;
+        firstCamera.GetComponent<Camera>().enabled = true;
+        secondCamera.GetComponent<Camera>().enabled = false;
         thirdCamera.GetComponent<Camera>().enabled = false;
         }
         void Update() {
@@ -46,16 +46,16 @@ namespace UnityLibary {
         }
 
         if(switchCam == true){
-            firstCamera.GetComponent<Camera>().enabled = true;
-            secondCamera.GetComponent<Camera>().enabled = false;
+            firstCamera.GetComponent<Camera>().enabled = false;
+            secondCamera.GetComponent<Camera>().enabled = true;
             thirdCamera.GetComponent<Camera>().enabled = false;
         } else if (backCam == true){
             firstCamera.GetComponent<Camera>().enabled = false;
             secondCamera.GetComponent<Camera>().enabled = false;
             thirdCamera.GetComponent<Camera>().enabled = true;
         } else {
-            firstCamera.GetComponent<Camera>().enabled = false;
-            secondCamera.GetComponent<Camera>().enabled = true;
+            firstCamera.GetComponent<Camera>().enabled = true;
+            secondCamera.GetComponent<Camera>().enabled = false;
             thirdCamera.GetComponent<Camera>().enabled = false;
         }
         //
