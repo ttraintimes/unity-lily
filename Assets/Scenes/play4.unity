@@ -939,8 +939,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95299864, b: 0.8537736, a: 1}
-  m_Intensity: 0.2
+  m_Color: {r: 1, g: 0.9801122, b: 0.9386792, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
@@ -1911,7 +1911,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!154 &1674716253
 TerrainCollider:
   m_ObjectHideFlags: 0
