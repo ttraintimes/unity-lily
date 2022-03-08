@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1345936464534141883}
   - component: {fileID: 3232421770371066951}
   - component: {fileID: 2212553998249727330}
+  - component: {fileID: 7515608241523540312}
   m_Layer: 0
   m_Name: nurbsToPoly5
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7515608241523540312
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310645029835725816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1264134713097657112, guid: 3732d6c2e6c2f4cb7bb6efd5a71e0722, type: 3}
 --- !u!1 &2517696869022331109
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +105,7 @@ GameObject:
   - component: {fileID: 4169123335497698235}
   - component: {fileID: 3472818537587071263}
   - component: {fileID: 3934848796693402470}
+  - component: {fileID: 523974270983588127}
   m_Layer: 0
   m_Name: nurbsToPoly2
   m_TagString: Untagged
@@ -158,6 +174,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &523974270983588127
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2517696869022331109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8638599120701810851, guid: 3732d6c2e6c2f4cb7bb6efd5a71e0722, type: 3}
 --- !u!1 &4616601080392015944
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,6 +199,7 @@ GameObject:
   - component: {fileID: 446647202532115845}
   - component: {fileID: 9098979813456716195}
   - component: {fileID: 1075865502769967806}
+  - component: {fileID: 8670036204045613785}
   m_Layer: 0
   m_Name: nurbsToPoly4
   m_TagString: Untagged
@@ -237,6 +268,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8670036204045613785
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4616601080392015944}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4403386257471574379, guid: 3732d6c2e6c2f4cb7bb6efd5a71e0722, type: 3}
 --- !u!1 &4766538425630784426
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +293,7 @@ GameObject:
   - component: {fileID: 6415362254110190557}
   - component: {fileID: 4541373227933749687}
   - component: {fileID: 7929138600395529254}
+  - component: {fileID: 7874482964955811064}
   m_Layer: 0
   m_Name: nurbsToPoly3
   m_TagString: Untagged
@@ -316,6 +362,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7874482964955811064
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4766538425630784426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -553563280528021195, guid: 3732d6c2e6c2f4cb7bb6efd5a71e0722, type: 3}
 --- !u!1 &8458680621416236539
 GameObject:
   m_ObjectHideFlags: 0

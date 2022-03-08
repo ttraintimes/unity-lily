@@ -102,11 +102,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Ripples:
         m_Texture: {fileID: 2800000, guid: f366779a17f54444485071fb5eab8ce2, type: 3}
-        m_Scale: {x: 6, y: 6}
+        m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _Ripples2:
         m_Texture: {fileID: 2800000, guid: f366779a17f54444485071fb5eab8ce2, type: 3}
-        m_Scale: {x: 9, y: 9}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _Ripples_Displacement:
         m_Texture: {fileID: 2800000, guid: 7b1ac0833a59dfc44a00632776814b20, type: 3}
@@ -137,7 +137,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Base_Smoothness: 0.84
+    - _Base_Smoothness: 0.713
     - _BendNormalsFreq: 4
     - _BendNormalsStrength: 0.05
     - _BumpScale: 1
@@ -194,7 +194,7 @@ Material:
     - _IndexofRefraction: 1.05
     - _MainShown: 1
     - _MaskClipValue: 0.5
-    - _Metallic: 0.72
+    - _Metallic: 0.796
     - _Metallic2: 1
     - _Midpoint: -0.212
     - _MinPulseBrightness: 0
@@ -311,7 +311,7 @@ Material:
     - maxDist: 10
     - minDist: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 0}
     - _CurvatureMultOffset: {r: 0, g: 0, b: 0, a: 0}
     - _CutoffEdgeGlow: {r: 0, g: 0, b: 0, a: 0.02}
