@@ -5,7 +5,7 @@ using System.Collections;
 //Souce: https://stackoverflow.com/questions/62391105/how-to-add-jump-in-c-sharp-script-in-unity3d-using-character-controller
 //Souce: https://github.com/fiqryq/Unity-Switch-Camera/blob/main/switchViewCam.cs
 
-namespace UnityLibary {
+
     public class PlayerContrl : MonoBehaviour {
 
     [SerializeField]
@@ -22,19 +22,35 @@ namespace UnityLibary {
     //
         public CharacterController controller;
 
-        //public float speed=7f;
-        public float speed;
+        public float speed=3f;
+      //  public float speed;
       //  public float jumpSpeed;
         public float gravity;
         private Vector3 movingDirection=Vector3.zero;
+
+        private enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
+    private RotationAxes axes = RotationAxes.MouseXAndY;
+    private float sensitivityX = 15F;
+    private float sensitivityY = 15F;
+    private float minimumX = -360F;
+    private float maximumX = 360F;
+    private float minimumY = -10F;
+    private float maximumY = 10F;
+    private float rotationX = 0F;
+    private float rotationY = 0F;
+    private Quaternion originalRotation;
+
 
         void Start()
         {
         firstCamera.GetComponent<Camera>().enabled = true;
         secondCamera.GetComponent<Camera>().enabled = false;
         thirdCamera.GetComponent<Camera>().enabled = false;
+        originalRotation = transform.localRotation;
         }
         void Update() {
+            UpdateMouseLook();
+        UpdateMovement();
             // Input Key
         if (Input.GetKeyDown("t")) {
             switchCam = !switchCam;
@@ -59,15 +75,16 @@ namespace UnityLibary {
             secondCamera.GetComponent<Camera>().enabled = false;
             thirdCamera.GetComponent<Camera>().enabled = false;
         }
-        //
-            if (Input.GetKey(KeyCode.LeftShift)) {
-                speed=speed+3f;
-            }
-           // else {
-           //     speed=7f;
-           // }
 
-            if (controller.isGrounded) {
+        }
+
+         private void UpdateMovement()
+    {
+       // float speed = 3.0f * Time.deltaTime;
+        if (Input.GetKey(KeyCode.LeftShift)) {
+                speed=speed+2f;
+            }
+        if (controller.isGrounded) {
               //  movingDirection.y = jumpSpeed;
                 movingDirection.y=1.0f;
             }
@@ -77,24 +94,64 @@ namespace UnityLibary {
 
             float z=Input.GetAxis("Vertical");
             Vector3 move=transform.forward * z;
-
             controller.Move(move * speed * Time.deltaTime);
 
-            if (Input.GetKey(KeyCode.D)) {
-                transform.RotateAround(transform.position, Vector3.up, 30 * Time.deltaTime);
-            }
-            if (Input.GetKey(KeyCode.A)) {
-                transform.RotateAround(transform.position, -Vector3.up, 30 * Time.deltaTime);
-            }
-            if (Input.GetKey(KeyCode.Q)) {
-                transform.Rotate(Vector3.left, 3.0f * Time.deltaTime);
-            }
-            if (Input.GetKey(KeyCode.Z)) {
-                transform.Rotate(Vector3.right, 3.0f * Time.deltaTime);
-            }
-
-
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(-0.5f, 0.0f, 0.0f);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(0.5f, 0.0f, 0.0f);
         }
 
+    }
+
+    private void UpdateMouseLook()
+    {
+        if (axes == RotationAxes.MouseXAndY)
+        {
+            // Read the mouse input axis
+            rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+            rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+
+            rotationX = ClampAngle(rotationX, minimumX, maximumX);
+            rotationY = ClampAngle(rotationY, minimumY, maximumY);
+
+            Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
+            Quaternion yQuaternion = Quaternion.AngleAxis(rotationY, -Vector3.right);
+
+            transform.localRotation = originalRotation * xQuaternion * yQuaternion;
+        }
+        else if (axes == RotationAxes.MouseX)
+        {
+            rotationX += Input.GetAxis("Mouse X") * sensitivityX;
+            rotationX = ClampAngle(rotationX, minimumX, maximumX);
+
+            Quaternion xQuaternion = Quaternion.AngleAxis(rotationX, Vector3.up);
+            transform.localRotation = originalRotation * xQuaternion;
+        }
+        else
+        {
+            rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
+            rotationY = ClampAngle(rotationY, minimumY, maximumY);
+
+            Quaternion yQuaternion = Quaternion.AngleAxis(-rotationY, Vector3.right);
+            transform.localRotation = originalRotation * yQuaternion;
+        }
+    }
+
+    public static float ClampAngle(float angle, float min, float max)
+    {
+        if (angle < -360F)
+        {
+            angle += 360F;
+        }
+        if (angle > 360F)
+        {
+            angle -= 360F;
+        }
+
+        return Mathf.Clamp(angle, min, max);
     }
 }
