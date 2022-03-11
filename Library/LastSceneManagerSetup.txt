@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ParticleShadersVol1/sample_scene.unity
+- path: Assets/Scenes/play2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
