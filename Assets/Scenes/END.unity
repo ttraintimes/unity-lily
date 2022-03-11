@@ -285,6 +285,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3910316599176576921, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1691661668}
+    - target: {fileID: 3910316599176576921, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
     - target: {fileID: 4022287122232607193, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_IsActive
@@ -584,6 +594,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMin.x
       value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683621775292521548, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1691661668}
+    - target: {fileID: 7683621775292521548, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_enabled
       objectReference: {fileID: 0}
     - target: {fileID: 8569656419459214382, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -30012,6 +30032,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 701b7552e370b4955a3cac5f1e95d23f, type: 3}
+--- !u!223 &1691661668 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1085573236164972344, guid: 701b7552e370b4955a3cac5f1e95d23f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1691661667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1894023748 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,

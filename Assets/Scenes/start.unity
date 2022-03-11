@@ -1590,6 +1590,12 @@ PrefabInstance:
     - {fileID: 3423628763940884973, guid: fb665b3820ec24ef3b89187d9c136a45, type: 3}
     - {fileID: 6457033661092204992, guid: fb665b3820ec24ef3b89187d9c136a45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fb665b3820ec24ef3b89187d9c136a45, type: 3}
+--- !u!223 &1123426034 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 1085573236164972344, guid: 701b7552e370b4955a3cac5f1e95d23f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1214873673}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1192663444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,6 +2327,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadScene
       objectReference: {fileID: 0}
+    - target: {fileID: 879989855754926815, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1123426034}
     - target: {fileID: 2019865893819447354, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.b
@@ -2605,6 +2616,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7097343944635061799, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1123426034}
+    - target: {fileID: 7097343944635061799, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_enabled
       objectReference: {fileID: 0}
     - target: {fileID: 7227875335707829689, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
         type: 3}
