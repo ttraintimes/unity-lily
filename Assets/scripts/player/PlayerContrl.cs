@@ -22,7 +22,9 @@ using System.Collections;
     //
         public CharacterController controller;
 
-        public float speed=3f;
+        public float speed;
+        public float normalspeed=3f;
+        public float sprintspeed=10f;
       //  public float speed;
       //  public float jumpSpeed;
         public float gravity;
@@ -30,8 +32,8 @@ using System.Collections;
 
         public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
-    private float sensitivityX = 10F;
-    private float sensitivityY = 10F;
+    private float sensitivityX = 8F;
+    private float sensitivityY = 8F;
     private float minimumX = -200F;
     private float maximumX = 200F;
     private float minimumY = -20F;
@@ -83,7 +85,10 @@ using System.Collections;
     {
        // float speed = 3.0f * Time.deltaTime;
         if (Input.GetKey(KeyCode.LeftShift)) {
-                speed=speed+2f;
+                speed=sprintspeed;
+            }
+            else{
+                speed=normalspeed;
             }
         if (controller.isGrounded) {
               //  movingDirection.y = jumpSpeed;

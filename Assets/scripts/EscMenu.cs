@@ -37,7 +37,6 @@ public class EscMenu : MonoBehaviour
 
             escMenu.SetActive(false);
             Time.timeScale = 1;
-
             onMenuDisppear.Invoke();
 
         }

@@ -318,6 +318,7 @@ GameObject:
   - component: {fileID: 3887407280505685844}
   - component: {fileID: 7968617029474591967}
   - component: {fileID: 7897345333862530958}
+  - component: {fileID: 7779021828742370763}
   m_Layer: 0
   m_Name: Maincam
   m_TagString: Player
@@ -410,6 +411,14 @@ MonoBehaviour:
   speed: 5
   gravity: 5
   axes: 0
+--- !u!81 &7779021828742370763
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887407280502400052}
+  m_Enabled: 1
 --- !u!1 &3887407280502400054
 GameObject:
   m_ObjectHideFlags: 0
