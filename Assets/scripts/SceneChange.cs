@@ -1,46 +1,44 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
+    private ObjectInteraction interact;
+    public string newSceneName;
+
+    public bool transitionTriggered = false;
+
     // Start is called before the first frame update
-     Ray ray;
-     RaycastHit hit;
- 
-     void Update()
-     {
-         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-         if (Physics.Raycast(ray, out hit) && Input.GetMouseButton(0))
-         {
-             if (hit.collider.name == "d21") 
-             {
-                 SceneManager.LoadScene("play1");
-             }
-             if (hit.collider.name == "d22") 
-             {
-                 SceneManager.LoadScene("play1");
-             }
-             if (hit.collider.name == "d3") 
-             {
-                 SceneManager.LoadScene("play2");
-             }
-             if (hit.collider.name == "d41") 
-             {
-                 SceneManager.LoadScene("play3");
-             }
-             if (hit.collider.name == "d42") 
-             {
-                 SceneManager.LoadScene("play3");
-             }
-             if (hit.collider.name == "d51") 
-             {
-                 SceneManager.LoadScene("play4");
-             }
-             if (hit.collider.name == "d52") 
-             {
-                 SceneManager.LoadScene("play4");
-             }
-         }
-     }
- }
+    void Start()
+    {
+        
+        interact = GetComponent<ObjectInteraction>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Time.timeScale = 1;
+        if ((interact.triggered == true) && (transitionTriggered == false))
+        {
+            transitionTriggered = true;
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            SceneManager.LoadScene(newSceneName, LoadSceneMode.Additive);
+            foreach (GameObject g in SceneManager.GetActiveScene().GetRootGameObjects())
+            {
+                g.SetActive(false);
+            }
+            Invoke("resetTrigger", 0.1f);
+        }
+
+    }
+
+    void resetTrigger()
+    {
+        transitionTriggered = false;
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(newSceneName));
+    }
+}

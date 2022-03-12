@@ -11,7 +11,7 @@ public class PlayerInteraction : MonoBehaviour
     public Image crosshairInteract;
 
     [SerializeField] private int InteractionRange = 10;
-    [SerializeField] private LayerMask InteractableLayer;
+    [SerializeField] private LayerMask scenetransitionLayer;
 
     // Update is called once per frame
 
@@ -26,9 +26,9 @@ public class PlayerInteraction : MonoBehaviour
         RaycastHit hit;
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
-        if (Physics.Raycast(transform.position, fwd, out hit, InteractionRange, InteractableLayer.value))
+        if (Physics.Raycast(transform.position, fwd, out hit, InteractionRange, scenetransitionLayer.value))
         {
-            if (hit.collider.CompareTag("Interactable"))
+            if (hit.collider.CompareTag("scenetransition"))
             {
                 crosshairNormal.enabled = false;
                 crosshairInteract.enabled = true;

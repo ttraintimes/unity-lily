@@ -5,8 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - main
-  - Interactable
-  - planet1
+  - scenetransition
   layers:
   - Default
   - TransparentFX

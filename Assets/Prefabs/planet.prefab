@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 637352702759360445}
   - component: {fileID: 3181225224399271187}
   - component: {fileID: 7513539838533130739}
+  - component: {fileID: 1018684499634929589}
+  - component: {fileID: 6199346139816048166}
   m_Layer: 8
   m_Name: d4
-  m_TagString: Interactable
+  m_TagString: scenetransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,6 +95,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1018684499634929589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627103005819282766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1cb6ff74a9adc4d9bb74f639ff59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered: 0
+  InteractionCoolDownTime: 0.1
+--- !u!114 &6199346139816048166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627103005819282766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  transitionTriggered: 0
 --- !u!1 &2215016561194744647
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,9 +135,11 @@ GameObject:
   - component: {fileID: 23110110372459550}
   - component: {fileID: 2123279565236092088}
   - component: {fileID: 8974595992363385311}
+  - component: {fileID: 3789390090448182920}
+  - component: {fileID: 2992737321403461993}
   m_Layer: 8
   m_Name: d2
-  m_TagString: Interactable
+  m_TagString: scenetransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -186,6 +218,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3789390090448182920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215016561194744647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1cb6ff74a9adc4d9bb74f639ff59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered: 0
+  InteractionCoolDownTime: 0.1
+--- !u!114 &2992737321403461993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215016561194744647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  transitionTriggered: 0
 --- !u!1 &3736549960397024593
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,9 +258,11 @@ GameObject:
   - component: {fileID: 7109766826894932854}
   - component: {fileID: 6985843893943869388}
   - component: {fileID: 5141518867070698728}
+  - component: {fileID: 6876925042658034195}
+  - component: {fileID: 121363796505217119}
   m_Layer: 8
   m_Name: d2 (1)
-  m_TagString: Interactable
+  m_TagString: scenetransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,6 +341,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6876925042658034195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736549960397024593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1cb6ff74a9adc4d9bb74f639ff59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered: 0
+  InteractionCoolDownTime: 0.1
+--- !u!114 &121363796505217119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736549960397024593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  transitionTriggered: 0
 --- !u!1 &5154195526652176693
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,9 +381,11 @@ GameObject:
   - component: {fileID: 3516450262594544373}
   - component: {fileID: 5594705683719227616}
   - component: {fileID: 2194524124590625371}
+  - component: {fileID: 8265938079949543676}
+  - component: {fileID: 3189853251644038342}
   m_Layer: 8
   m_Name: d3
-  m_TagString: Interactable
+  m_TagString: scenetransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -372,6 +464,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8265938079949543676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5154195526652176693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1cb6ff74a9adc4d9bb74f639ff59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered: 0
+  InteractionCoolDownTime: 0.1
+--- !u!114 &3189853251644038342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5154195526652176693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  transitionTriggered: 0
 --- !u!1 &5404736212359115662
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,9 +504,11 @@ GameObject:
   - component: {fileID: 7241218641545926954}
   - component: {fileID: 2416450566627867251}
   - component: {fileID: 8806852439604021203}
+  - component: {fileID: 5103703483165893183}
+  - component: {fileID: 2402808712891150912}
   m_Layer: 8
   m_Name: d5
-  m_TagString: Interactable
+  m_TagString: scenetransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -465,6 +587,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5103703483165893183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404736212359115662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1cb6ff74a9adc4d9bb74f639ff59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered: 0
+  InteractionCoolDownTime: 0.1
+--- !u!114 &2402808712891150912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404736212359115662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  transitionTriggered: 0
 --- !u!1 &7469875277584560007
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,9 +627,11 @@ GameObject:
   - component: {fileID: 2910771820247794181}
   - component: {fileID: 6465665087535022251}
   - component: {fileID: 4789327618397557100}
+  - component: {fileID: 8973584512007481156}
+  - component: {fileID: 9093985634674104556}
   m_Layer: 8
   m_Name: d4 (1)
-  m_TagString: Interactable
+  m_TagString: scenetransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -558,6 +710,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8973584512007481156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7469875277584560007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1cb6ff74a9adc4d9bb74f639ff59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered: 0
+  InteractionCoolDownTime: 0.1
+--- !u!114 &9093985634674104556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7469875277584560007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  transitionTriggered: 0
 --- !u!1 &8449813804877734958
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,9 +750,11 @@ GameObject:
   - component: {fileID: 4624717032171156041}
   - component: {fileID: 6829843602001984193}
   - component: {fileID: 7109211501046690178}
+  - component: {fileID: 4119366036893921523}
+  - component: {fileID: 8061950971667709593}
   m_Layer: 8
   m_Name: d5 (1)
-  m_TagString: Interactable
+  m_TagString: scenetransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -651,6 +833,34 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4119366036893921523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8449813804877734958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1cb6ff74a9adc4d9bb74f639ff59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggered: 0
+  InteractionCoolDownTime: 0.1
+--- !u!114 &8061950971667709593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8449813804877734958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42afd1db3ed7c4c2d86264ce6557f3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSceneName: 
+  transitionTriggered: 0
 --- !u!1 &8654504426848640902
 GameObject:
   m_ObjectHideFlags: 0
