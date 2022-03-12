@@ -28,12 +28,12 @@ using System.Collections;
         public float gravity;
         private Vector3 movingDirection=Vector3.zero;
 
-        private enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
-    private RotationAxes axes = RotationAxes.MouseXAndY;
-    private float sensitivityX = 25F;
+        public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
+    public RotationAxes axes = RotationAxes.MouseXAndY;
+    private float sensitivityX = 10F;
     private float sensitivityY = 10F;
-    private float minimumX = -360F;
-    private float maximumX = 360F;
+    private float minimumX = -200F;
+    private float maximumX = 200F;
     private float minimumY = -20F;
     private float maximumY = 30F;
     private float rotationX = 0F;
@@ -51,6 +51,7 @@ using System.Collections;
         void Update() {
             UpdateMouseLook();
         UpdateMovement();
+        
             // Input Key
         if (Input.GetKeyDown("t")) {
             switchCam = !switchCam;
@@ -98,17 +99,23 @@ using System.Collections;
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(-0.5f, 0.0f, 0.0f);
+            transform.Translate(-0.2f, 0.0f, 0.0f);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(0.5f, 0.0f, 0.0f);
+            transform.Translate(0.2f, 0.0f, 0.0f);
         }
 
     }
 
     private void UpdateMouseLook()
     {
+        Cursor.visible = false;
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Cursor.visible = true;
+        }
+
         if (axes == RotationAxes.MouseXAndY)
         {
             // Read the mouse input axis
