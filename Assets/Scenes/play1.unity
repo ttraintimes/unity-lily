@@ -1835,6 +1835,11 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 0.48235294
       objectReference: {fileID: 0}
+    - target: {fileID: 2459629037678784843, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: bgAS
+      value: 
+      objectReference: {fileID: 618966581}
     - target: {fileID: 2604950775311488147, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
@@ -1910,6 +1915,11 @@ PrefabInstance:
       propertyPath: bgAS
       value: 
       objectReference: {fileID: 618966581}
+    - target: {fileID: 4270628970140361590, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 4391422324817558425, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_IsActive
@@ -1964,6 +1974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5558815118794993590, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5707700023125475962, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}

@@ -393,6 +393,11 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.r
       value: 0.48235294
       objectReference: {fileID: 0}
+    - target: {fileID: 2459629037678784843, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: bgAS
+      value: 
+      objectReference: {fileID: 2054555076}
     - target: {fileID: 3138198856793097603, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_IsActive
