@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4495662085604173214}
   - component: {fileID: 7546370618669370500}
   - component: {fileID: 8168413967806709476}
+  - component: {fileID: 2744159879113163702}
   m_Layer: 0
   m_Name: secondCamera
   m_TagString: MainCamera
@@ -26,15 +27,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310448793855809986}
-  m_LocalRotation: {x: -0.06767067, y: -0.0067967465, z: -0.00046104932, w: 0.9976845}
-  m_LocalPosition: {x: 0.02112431, y: -0.637274, z: -0.48504633}
+  m_LocalRotation: {x: -0.011885443, y: 0.0032632917, z: 0.000021377635, w: 0.99992406}
+  m_LocalPosition: {x: 0.02112431, y: -0.613, z: -0.48504633}
   m_LocalScale: {x: 0.9990818, y: 0.9993597, z: 1.0018792}
   m_Children:
   - {fileID: 4145865187035450235}
   - {fileID: 5860789393144361526}
   m_Father: {fileID: 3887407280502306836}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -12.456, y: -12.593, z: -46.476}
+  m_LocalEulerAnglesHint: {x: -1.362, y: 0.374, z: -0.002}
 --- !u!20 &4495662085604173214
 Camera:
   m_ObjectHideFlags: 0
@@ -95,6 +96,24 @@ Skybox:
   m_GameObject: {fileID: 310448793855809986}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
+--- !u!114 &2744159879113163702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310448793855809986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crosshairNormal: {fileID: 0}
+  crosshairInteract: {fileID: 0}
+  InteractionRange: 10
+  InteractableLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1166908912935605734
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,6 +126,7 @@ GameObject:
   - component: {fileID: 1239959877012288405}
   - component: {fileID: 3334417769654248525}
   - component: {fileID: 4278315172243199537}
+  - component: {fileID: 4058260195815200865}
   m_Layer: 0
   m_Name: thirdCamera
   m_TagString: MainCamera
@@ -121,7 +141,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166908912935605734}
-  m_LocalRotation: {x: -0, y: -0, z: 0.0000000074505793, w: 1}
+  m_LocalRotation: {x: -0.011885443, y: 0.0032632917, z: 0.000021377635, w: 0.99992406}
   m_LocalPosition: {x: 0, y: 0.34999993, z: -4.9000034}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -129,7 +149,7 @@ Transform:
   - {fileID: 8976200701677143687}
   m_Father: {fileID: 3887407280502306836}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.362, y: 0.374, z: -0.002}
 --- !u!20 &1239959877012288405
 Camera:
   m_ObjectHideFlags: 0
@@ -190,6 +210,24 @@ Skybox:
   m_GameObject: {fileID: 1166908912935605734}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
+--- !u!114 &4058260195815200865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166908912935605734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crosshairNormal: {fileID: 0}
+  crosshairInteract: {fileID: 0}
+  InteractionRange: 10
+  InteractableLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3887407280502400052
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +356,7 @@ GameObject:
   - component: {fileID: 3887407280500762132}
   - component: {fileID: 3887407280494425202}
   - component: {fileID: 9203077224329883303}
+  - component: {fileID: 3405510442520116372}
   m_Layer: 0
   m_Name: firstCamera
   m_TagString: MainCamera
@@ -332,7 +371,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3887407280502400054}
-  m_LocalRotation: {x: -0.011882637, y: -0.019908128, z: -0.00025306825, w: 0.99973124}
+  m_LocalRotation: {x: -0.011885305, y: 0.0032635028, z: 0.00002234848, w: 0.99992406}
   m_LocalPosition: {x: 0, y: -0.508, z: -1.6099987}
   m_LocalScale: {x: 0.9971353, y: 0.9996205, z: 1.0039787}
   m_Children:
@@ -340,7 +379,7 @@ Transform:
   - {fileID: 5490097822845059074}
   m_Father: {fileID: 3887407280502306836}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -9.122001, y: -18.415, z: -45.511}
+  m_LocalEulerAnglesHint: {x: -1.3620001, y: 0.374, z: -0.002}
 --- !u!20 &3887407280500762132
 Camera:
   m_ObjectHideFlags: 0
@@ -401,6 +440,24 @@ Skybox:
   m_GameObject: {fileID: 3887407280502400054}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
+--- !u!114 &3405510442520116372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887407280502400054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crosshairNormal: {fileID: 0}
+  crosshairInteract: {fileID: 0}
+  InteractionRange: 10
+  InteractableLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &5889477747462367544
 GameObject:
   m_ObjectHideFlags: 0

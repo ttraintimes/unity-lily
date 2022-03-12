@@ -30,8 +30,8 @@ using System.Collections;
 
         private enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     private RotationAxes axes = RotationAxes.MouseXAndY;
-    private float sensitivityX = 15F;
-    private float sensitivityY = 15F;
+    private float sensitivityX = 25F;
+    private float sensitivityY = 10F;
     private float minimumX = -360F;
     private float maximumX = 360F;
     private float minimumY = -10F;
