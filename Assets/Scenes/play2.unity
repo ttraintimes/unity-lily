@@ -369,6 +369,21 @@ PrefabInstance:
       propertyPath: m_CustomSkybox
       value: 
       objectReference: {fileID: 2100000, guid: fa231042141b62943bf62a7eec685939, type: 2}
+    - target: {fileID: 8842385443196509839, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.033
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842385443196509839, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.212
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842385443196509839, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.245
+      objectReference: {fileID: 0}
     - target: {fileID: 9203077224329883303, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_CustomSkybox
@@ -1629,17 +1644,17 @@ PrefabInstance:
     - target: {fileID: 7061095532122409074, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.010064674
+      value: 0.014237488
       objectReference: {fileID: 0}
     - target: {fileID: 7061095532122409074, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.010064675
+      value: 0.014237489
       objectReference: {fileID: 0}
     - target: {fileID: 7061095532122409074, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.010064674
+      value: 0.014237488
       objectReference: {fileID: 0}
     - target: {fileID: 7061095532122409074, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
@@ -1649,7 +1664,7 @@ PrefabInstance:
     - target: {fileID: 7061095532122409074, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0063
+      value: -0.0055
       objectReference: {fileID: 0}
     - target: {fileID: 7061095532122409074, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}

@@ -18,6 +18,7 @@ public class PlayerInteraction : MonoBehaviour
 
     void Start()
     {
+        //gameObject.transform.GetChild(0).gameObject.SetActive(false);
         crosshairInteract.enabled = false;
     }
 
@@ -30,6 +31,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (hit.collider.CompareTag("scenetransition"))
             {
+                //gameObject.transform.GetChild(0).gameObject.SetActive(true);
                 crosshairNormal.enabled = false;
                 crosshairInteract.enabled = true;
                 raycastedObj = hit.collider.gameObject;
@@ -41,6 +43,7 @@ public class PlayerInteraction : MonoBehaviour
                     raycastedObj = null;
                     referencedScript = null;
                     raycastedObj = null;
+                    //gameObject.transform.GetChild(0).gameObject.SetActive(false);
                 }
             }
         }
@@ -48,6 +51,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             crosshairNormal.enabled = true;
             crosshairInteract.enabled = false;
+            //gameObject.transform.GetChild(0).gameObject.SetActive(false);
         }
 
     }
