@@ -5408,6 +5408,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 64.332
       objectReference: {fileID: 0}
+    - target: {fileID: 6952660150821436048, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1326948
+      objectReference: {fileID: 0}
+    - target: {fileID: 6952660150821436048, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1326951
+      objectReference: {fileID: 0}
+    - target: {fileID: 6952660150821436048, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1326948
+      objectReference: {fileID: 0}
     - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: speed
@@ -10112,7 +10127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1980309743
 Transform:
   m_ObjectHideFlags: 0
@@ -10368,7 +10383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2075674013
 Transform:
   m_ObjectHideFlags: 0
