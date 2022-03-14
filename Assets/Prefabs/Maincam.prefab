@@ -110,7 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crosshairNormal: {fileID: 0}
   crosshairInteract: {fileID: 0}
-  InteractionRange: 10
+  InteractionRange: 3
   scenetransitionLayer:
     serializedVersion: 2
     m_Bits: 791

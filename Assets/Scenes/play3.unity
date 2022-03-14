@@ -408,6 +408,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3605929156348782938, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 981
+      objectReference: {fileID: 0}
     - target: {fileID: 3910316599176576921, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
@@ -712,6 +717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Colors.m_NormalColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186135785001487592, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7404492954953139865, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2724,6 +2734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Maincam
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887407280505685844, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 4058260195815200865, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
