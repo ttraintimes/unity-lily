@@ -23,7 +23,6 @@ using System.Collections;
         public CharacterController controller;
 
         public float speed;
-        public float normalspeed=3f;
         public float sprintspeed=10f;
       //  public float speed;
       //  public float jumpSpeed;
@@ -88,7 +87,7 @@ using System.Collections;
                 speed=sprintspeed;
             }
             else{
-                speed=normalspeed;
+                speed=speed;
             }
         if (controller.isGrounded) {
               //  movingDirection.y = jumpSpeed;
