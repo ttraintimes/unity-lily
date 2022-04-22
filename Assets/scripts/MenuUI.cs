@@ -9,6 +9,10 @@ public class MenuUI : MonoBehaviour
     {
         SceneManager.LoadScene("start");
     }
+    public void startBtn()
+    {
+        SceneManager.LoadScene("play1");
+    }
     public void restartBtn()
     {
         SceneManager.LoadScene("menu");
@@ -16,7 +20,8 @@ public class MenuUI : MonoBehaviour
 
     public void quitBtn()
     {
-        Application.Quit();
+        SceneManager.LoadScene("menu");
+        //Application.Quit();
     }
 
 }
