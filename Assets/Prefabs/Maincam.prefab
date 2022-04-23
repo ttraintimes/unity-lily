@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7546370618669370500}
   - component: {fileID: 8168413967806709476}
   - component: {fileID: 2744159879113163702}
-  - component: {fileID: 3794931490732793554}
   m_Layer: 0
   m_Name: secondCamera
   m_TagString: MainCamera
@@ -111,22 +110,6 @@ MonoBehaviour:
   crosshairNormal: {fileID: 0}
   crosshairInteract: {fileID: 0}
   InteractionRange: 3
-  scenetransitionLayer:
-    serializedVersion: 2
-    m_Bits: 791
---- !u!114 &3794931490732793554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310448793855809986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55e079c8c37d34f979f89b6d549c844c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InteractionRange: 2
   scenetransitionLayer:
     serializedVersion: 2
     m_Bits: 791
@@ -434,6 +417,7 @@ GameObject:
   - component: {fileID: 7968617029474591967}
   - component: {fileID: 7897345333862530958}
   - component: {fileID: 7779021828742370763}
+  - component: {fileID: 5201610742617634967}
   m_Layer: 0
   m_Name: Maincam
   m_TagString: Player
@@ -524,7 +508,6 @@ MonoBehaviour:
   thirdCamera: {fileID: 1239959877012288405}
   controller: {fileID: 3887407280496792052}
   speed: 5
-  normalspeed: 3
   sprintspeed: 10
   gravity: 5
   axes: 0
@@ -536,6 +519,23 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3887407280502400052}
   m_Enabled: 1
+--- !u!114 &5201610742617634967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887407280502400052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ad7e25f1098444c90b705d8b7ab729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterE: {fileID: 0}
+  InteractionRange: 2
+  scenetransitionLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3887407280502400054
 GameObject:
   m_ObjectHideFlags: 0

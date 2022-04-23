@@ -678,6 +678,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 4.039, y: -207.245, z: 0.836}
+--- !u!114 &696568914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6470869992506996289, guid: 195a22f39fc7d48a6b376543eb0fb1d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7147713139209720195}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &729143047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2911,6 +2923,11 @@ PrefabInstance:
       propertyPath: crosshairInteract
       value: 
       objectReference: {fileID: 7147713139209720196}
+    - target: {fileID: 5201610742617634967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: enterE
+      value: 
+      objectReference: {fileID: 696568914}
     - target: {fileID: 6952660150821436048, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_LocalScale.x

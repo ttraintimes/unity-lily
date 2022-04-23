@@ -397,6 +397,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &265648503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 310448793855809986, guid: 632a0962eb48649ca89afd8da0f42971,
+    type: 3}
+  m_PrefabInstance: {fileID: 792093027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &265648505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265648503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ad7e25f1098444c90b705d8b7ab729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterE: {fileID: 577014176}
+  InteractionRange: 2
+  scenetransitionLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1001 &271296112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2227,6 +2250,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 6228970330845479736, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6253703616299920499, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.b
@@ -2645,6 +2673,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7db93764697c4045909a2d64d02b4f2, type: 3}
+--- !u!114 &577014176 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4965488641477404955, guid: 4127b87a94ccf422898780ff26600a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 522135521}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &582727524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5799591055236114391, guid: ab61874320feb4fb3bbdacba044ff20e,
@@ -4135,6 +4175,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5201610742617634967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: enterE
+      value: 
+      objectReference: {fileID: 577014176}
     - target: {fileID: 5490097822845059074, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_LocalScale.x

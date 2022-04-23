@@ -35,7 +35,7 @@ using System.Collections;
     private float sensitivityY = 8F;
     private float minimumX = -200F;
     private float maximumX = 200F;
-    private float minimumY = -20F;
+    private float minimumY = -35F;
     private float maximumY = 30F;
     private float rotationX = 0F;
     private float rotationY = 0F;
