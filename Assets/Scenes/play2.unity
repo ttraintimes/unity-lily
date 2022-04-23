@@ -1100,9 +1100,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 728548339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ca99f9db9d94db29428b5bae58bbb0, type: 3}
+  m_Script: {fileID: 11500000, guid: d3b38ecddfa2640d7b6f3bf5568f09c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newScene: play2
 --- !u!135 &728548341
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1302,9 +1303,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 815489524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ca99f9db9d94db29428b5bae58bbb0, type: 3}
+  m_Script: {fileID: 11500000, guid: d3b38ecddfa2640d7b6f3bf5568f09c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newScene: play2
 --- !u!135 &815489526
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2696,9 +2698,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1497952052}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ca99f9db9d94db29428b5bae58bbb0, type: 3}
+  m_Script: {fileID: 11500000, guid: d3b38ecddfa2640d7b6f3bf5568f09c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newScene: play2
 --- !u!135 &1497952054
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2960,9 +2963,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1635024766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83ca99f9db9d94db29428b5bae58bbb0, type: 3}
+  m_Script: {fileID: 11500000, guid: d3b38ecddfa2640d7b6f3bf5568f09c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  newScene: play2
 --- !u!135 &1635024768
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5221,6 +5225,11 @@ PrefabInstance:
       propertyPath: limit
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 5263193850122822933, guid: de4e8ae22411dba4f971edf49f8738f2,
+        type: 3}
+      propertyPath: speed
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4e8ae22411dba4f971edf49f8738f2, type: 3}
 --- !u!1 &1936833382
@@ -5650,7 +5659,7 @@ PrefabInstance:
     - target: {fileID: 5263193850122822933, guid: de4e8ae22411dba4f971edf49f8738f2,
         type: 3}
       propertyPath: speed
-      value: 2
+      value: 2.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de4e8ae22411dba4f971edf49f8738f2, type: 3}
