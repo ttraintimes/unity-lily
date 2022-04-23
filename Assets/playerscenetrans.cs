@@ -17,7 +17,6 @@ public class playerscenetrans : MonoBehaviour
 
     void Start()
     {
-        //gameObject.transform.GetChild(0).gameObject.SetActive(false);
         enterE.enabled = false;
     }
 
@@ -30,7 +29,6 @@ public class playerscenetrans : MonoBehaviour
         {
             if (hit.collider.CompareTag("scenetransition"))
             {
-                //gameObject.transform.GetChild(0).gameObject.SetActive(true);
                 enterE.enabled = true;
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
@@ -41,14 +39,12 @@ public class playerscenetrans : MonoBehaviour
                     raycastedObj = null;
                     referencedScript = null;
                     raycastedObj = null;
-                    //gameObject.transform.GetChild(0).gameObject.SetActive(false);
                 }
             }
         }
         else
         {
             enterE.enabled = false;
-            //gameObject.transform.GetChild(0).gameObject.SetActive(false);
         }
 
     }
