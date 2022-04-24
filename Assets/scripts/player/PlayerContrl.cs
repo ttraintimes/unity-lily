@@ -31,10 +31,10 @@ using System.Collections;
 
         public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
-    private float sensitivityX = 8F;
-    private float sensitivityY = 8F;
-    private float minimumX = -200F;
-    private float maximumX = 200F;
+    private float sensitivityX = 4F;
+    private float sensitivityY = 4F;
+    private float minimumX = -300F;
+    private float maximumX = 300F;
     private float minimumY = -35F;
     private float maximumY = 30F;
     private float rotationX = 0F;
@@ -103,11 +103,11 @@ using System.Collections;
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(-0.2f, 0.0f, 0.0f);
+            transform.Translate(-0.1f, 0.0f, 0.0f);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(0.2f, 0.0f, 0.0f);
+            transform.Translate(0.1f, 0.0f, 0.0f);
         }
 
     }

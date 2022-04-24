@@ -20,8 +20,7 @@ public class MenuUI : MonoBehaviour
 
     public void quitBtn()
     {
-        SceneManager.LoadScene("menu");
-        //Application.Quit();
+        Application.Quit();
     }
 
 }
