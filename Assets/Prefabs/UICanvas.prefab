@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 6317846336434964421}
   - component: {fileID: 4896933797487103197}
   - component: {fileID: 4881294745334115240}
+  - component: {fileID: 2844814935283831652}
   m_Layer: 5
   m_Name: quit
   m_TagString: Untagged
@@ -541,9 +542,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7905147621678017631}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2844814935283831652}
+        m_MethodName: quitBtn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -552,17 +553,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5251978511857218021}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+--- !u!114 &2844814935283831652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617323132855900492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe66283d75c4f4d20bc4ce655d573f4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &656784474793981982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2527,6 +2529,7 @@ GameObject:
   - component: {fileID: 2251528855389967147}
   - component: {fileID: 6965922060952359885}
   - component: {fileID: 9190627305393416390}
+  - component: {fileID: 5756812512654260466}
   m_Layer: 5
   m_Name: quit
   m_TagString: Untagged
@@ -2693,9 +2696,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7581043398727926339}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 5756812512654260466}
+        m_MethodName: quitBtn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2704,17 +2707,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5251978511857218021}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+--- !u!114 &5756812512654260466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5618705987086034289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe66283d75c4f4d20bc4ce655d573f4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5707700023125475962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,7 +4370,7 @@ RectTransform:
   m_GameObject: {fileID: 6649377421792618086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.88004, y: 0.88004, z: 0.88004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8295276529245245046}
   m_RootOrder: 4

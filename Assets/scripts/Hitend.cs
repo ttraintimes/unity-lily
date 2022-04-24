@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class Hitend : MonoBehaviour
 {
     GameObject raycastedObj;
     ObjectInteraction referencedScript;
     public GameObject EndMenu;
+    public UnityEvent onMenuAppear;
 
     [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask scenetransitionLayer;
@@ -27,13 +29,14 @@ public class Hitend : MonoBehaviour
 
         if (Physics.Raycast(transform.position, fwd, out hit, InteractionRange, scenetransitionLayer.value))
         {
+            Time.timeScale = 0;
             if (hit.collider.CompareTag("scenetransition"))
             {
                 EndMenu.SetActive(true);
-                Time.timeScale = 0;
+                onMenuAppear.Invoke();
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
-
+                Cursor.visible = true;
                 if (Input.GetKeyDown("e") && (referencedScript != null))
                 {
                     referencedScript.interact();
@@ -42,6 +45,11 @@ public class Hitend : MonoBehaviour
                     raycastedObj = null;
                 }
             }
+        }
+        else
+        {
+            Time.timeScale = 1;
+            EndMenu.SetActive(false);
         }
 
     }
