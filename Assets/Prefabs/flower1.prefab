@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 6764360251923468366}
   - component: {fileID: 8807671458239833220}
   - component: {fileID: 1348466939179946317}
-  - component: {fileID: 1387957301094332332}
+  - component: {fileID: 2575722532084655362}
   m_Layer: 0
   m_Name: flower1
-  m_TagString: Untagged
+  m_TagString: flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ CapsuleCollider:
   m_Height: 0.7424259
   m_Direction: 1
   m_Center: {x: 0.01125236, y: 0.32634512, z: 0.020278782}
---- !u!114 &1387957301094332332
+--- !u!114 &2575722532084655362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,7 +107,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7006438795597104465}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d0ee86a322726f42853351f23363550, type: 3}
+  m_Script: {fileID: 11500000, guid: ab1b1022ced374422b0f05996f2457db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallTime: 0.5

@@ -141,30 +141,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1387957301094332332, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: fallTime
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -174,17 +154,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 343.75558
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 339.08398
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 343.75558
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -468,6 +448,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1763300568}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &216676472 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3253768410418589456, guid: 4127b87a94ccf422898780ff26600a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 1437574968}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &229458234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,30 +467,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1387957301094332332, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: fallTime
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (58)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -508,17 +480,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 301.6493
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -805,25 +777,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -833,17 +790,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 301.6493
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -909,6 +866,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1398499717}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &410443447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6073002323552776130, guid: 4127b87a94ccf422898780ff26600a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 1437574968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &410443448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410443447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71290b1847b954a41a7db566dbaa64eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowernum: {fileID: 216676472}
+  n: 0
 --- !u!1001 &425379997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -916,30 +893,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1387957301094332332, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: fallTime
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (61)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -949,17 +906,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 232.41194
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 229.25346
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 232.41194
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -1126,25 +1083,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (41)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -1154,17 +1096,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 343.75555
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 339.08398
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 343.75555
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -1215,11 +1157,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7839568452732147958, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: fallTime
-      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26, type: 3}
@@ -2529,25 +2466,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -2557,17 +2479,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 301.6493
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -2717,25 +2639,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -2745,17 +2652,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 301.6493
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -3601,30 +3508,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1387957301094332332, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: fallTime
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -3634,17 +3521,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 232.41191
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 229.25346
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 232.41191
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -4349,25 +4236,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (43)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -4377,17 +4249,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 232.41191
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 229.25346
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 232.41191
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -4494,6 +4366,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1196189592860726975, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1475405851479863413, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -4543,6 +4420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3253768410418589456, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_Text
+      value: 0  picked
       objectReference: {fileID: 0}
     - target: {fileID: 3478170630622941226, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -5510,30 +5392,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1387957301094332332, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: fallTime
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (57)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -5543,17 +5405,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 232.41191
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 229.25346
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 232.41191
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -5690,25 +5552,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -5718,17 +5565,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 232.41194
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 229.25346
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 232.41194
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -5873,25 +5720,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075674013}
     m_Modifications:
-    - target: {fileID: 1348466939179946317, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2373884916919690976, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_Name
       value: flower1 (42)
-      objectReference: {fileID: 0}
-    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
@@ -5901,17 +5733,17 @@ PrefabInstance:
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 301.6493
+      value: 283.0404
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 305.80518
+      value: 315.75937
       objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
