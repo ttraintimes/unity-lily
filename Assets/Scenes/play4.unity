@@ -2998,7 +2998,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1144498726}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1686553330}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec47c347f25b945cbae568f4f97de8ef, type: 3}
@@ -4816,6 +4816,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6915384700902900442, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -75
+      objectReference: {fileID: 0}
     - target: {fileID: 6961938623760778462, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.b
@@ -5629,6 +5634,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26, type: 3}
+--- !u!1 &1686553330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3887407280502400052, guid: 632a0962eb48649ca89afd8da0f42971,
+    type: 3}
+  m_PrefabInstance: {fileID: 1144498726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1686553337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686553330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c6533e4d2ef4442ab1b11d5304f71d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowernum: {fileID: 216676472}
+  InteractionRange: 1
+  flowerLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1001 &1735411525
 PrefabInstance:
   m_ObjectHideFlags: 0
