@@ -27,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310448793855809986}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02112431, y: -0.613, z: -0.48504633}
+  m_LocalRotation: {x: -0.05233462, y: -0.0069717476, z: -0.00036537342, w: 0.99860525}
+  m_LocalPosition: {x: 0.045735393, y: -0.637, z: -0.46453547}
   m_LocalScale: {x: 0.9990818, y: 0.9993597, z: 1.0018792}
   m_Children: []
   m_Father: {fileID: 3887407280502306836}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -6, y: -0.8, z: 0}
 --- !u!20 &4495662085604173214
 Camera:
   m_ObjectHideFlags: 0
@@ -106,8 +106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshairNormal: {fileID: 0}
-  crosshairInteract: {fileID: 0}
   InteractionRange: 3
   scenetransitionLayer:
     serializedVersion: 2
@@ -139,13 +137,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166908912935605734}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.34999993, z: -4.9000034}
+  m_LocalRotation: {x: -0.010854251, y: 0.005113185, z: 0.000055501707, w: 0.99992806}
+  m_LocalPosition: {x: 0.020001087, y: 0.28999996, z: -5.039997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3887407280502306836}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.2440001, y: 0.586, z: 0}
 --- !u!20 &1239959877012288405
 Camera:
   m_ObjectHideFlags: 0
@@ -218,8 +216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshairNormal: {fileID: 0}
-  crosshairInteract: {fileID: 0}
   InteractionRange: 2
   scenetransitionLayer:
     serializedVersion: 2
@@ -481,13 +477,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3887407280502400054}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.508, z: -1.6099987}
+  m_LocalRotation: {x: -0.044630315, y: 0.000000014901161, z: 0.0000000013969839,
+    w: 0.99900365}
+  m_LocalPosition: {x: 0.013, y: -0.6366, z: -0.998}
   m_LocalScale: {x: 0.9971353, y: 0.9996205, z: 1.0039787}
   m_Children: []
   m_Father: {fileID: 3887407280502306836}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -5.116, y: 0, z: 0}
 --- !u!20 &3887407280500762132
 Camera:
   m_ObjectHideFlags: 0
@@ -560,8 +557,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshairNormal: {fileID: 0}
-  crosshairInteract: {fileID: 0}
   InteractionRange: 10
   scenetransitionLayer:
     serializedVersion: 2

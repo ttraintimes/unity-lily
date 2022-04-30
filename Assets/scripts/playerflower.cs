@@ -8,7 +8,7 @@ public class playerflower : MonoBehaviour
     GameObject raycastedObj;
     public Text flowernum;
 
-    [SerializeField] private int InteractionRange = 1;
+    [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask flowerLayer;
 
     // Update is called once per frame
@@ -29,12 +29,12 @@ public class playerflower : MonoBehaviour
             if (hit.collider.CompareTag("flower"))
             {
                 flowernum.enabled = true;
-            //    raycastedObj = hit.collider.gameObject;
+                raycastedObj = hit.collider.gameObject;
             }
         }
         else
         {
-            flowernum.enabled = false;
+        //    flowernum.enabled = false;
         }
 
     }

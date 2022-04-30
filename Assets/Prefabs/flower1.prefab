@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7669645945568796651}
   - component: {fileID: 6764360251923468366}
   - component: {fileID: 8807671458239833220}
-  - component: {fileID: 1348466939179946317}
   - component: {fileID: 2575722532084655362}
+  - component: {fileID: 7642025826444885290}
   m_Layer: 0
   m_Name: flower1
   m_TagString: flower
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &1348466939179946317
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7006438795597104465}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.29237178
-  m_Height: 0.81785727
-  m_Direction: 1
-  m_Center: {x: -0.0027878056, y: 0.3640608, z: 0.015419885}
 --- !u!114 &2575722532084655362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,3 +96,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab1b1022ced374422b0f05996f2457db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &7642025826444885290
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7006438795597104465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -365502967516352947, guid: c95a1cb1a7e324144bdfa08e9802903c, type: 3}
