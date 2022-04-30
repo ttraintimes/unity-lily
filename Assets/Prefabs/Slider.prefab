@@ -304,10 +304,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4440470862072479635}
   - component: {fileID: 4440470862072479632}
-  - component: {fileID: 8000287903250240177}
   m_Layer: 5
   m_Name: Slider
-  m_TagString: Untagged
+  m_TagString: bgmusic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,17 +383,3 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8000287903250240177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4440470862072479634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb2d404224b14439c94de11612e2bff2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mySlider: {fileID: 4440470862072479632}
-  bgAS: {fileID: 0}

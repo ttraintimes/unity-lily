@@ -14,6 +14,7 @@ public class VolumeContrl : MonoBehaviour
     private void Start()
     {
         Time.timeScale = 1;
+      // mySlider=GameObject.FindWithTag("bgmusic");
         if (curVolume != -1)
         {
             bgAS.volume = curVolume;

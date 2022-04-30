@@ -7,8 +7,8 @@ public class PlayerInteraction : MonoBehaviour
 {
     GameObject raycastedObj;
     ObjectInteraction referencedScript;
-    public Image crosshairNormal;
-    public Image crosshairInteract;
+  //  public Image crosshairNormal;
+  //  public Image crosshairInteract;
 
     [SerializeField] private int InteractionRange = 10;
     [SerializeField] private LayerMask scenetransitionLayer;
@@ -19,7 +19,7 @@ public class PlayerInteraction : MonoBehaviour
     void Start()
     {
         //gameObject.transform.GetChild(0).gameObject.SetActive(false);
-        crosshairInteract.enabled = false;
+      //  crosshairInteract.enabled = false;
     }
 
     void Update()
@@ -32,8 +32,8 @@ public class PlayerInteraction : MonoBehaviour
             if (hit.collider.CompareTag("scenetransition"))
             {
                 //gameObject.transform.GetChild(0).gameObject.SetActive(true);
-                crosshairNormal.enabled = false;
-                crosshairInteract.enabled = true;
+              //  crosshairNormal.enabled = false;
+              //  crosshairInteract.enabled = true;
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -49,8 +49,8 @@ public class PlayerInteraction : MonoBehaviour
         }
         else
         {
-            crosshairNormal.enabled = true;
-            crosshairInteract.enabled = false;
+         //   crosshairNormal.enabled = true;
+         //   crosshairInteract.enabled = false;
             //gameObject.transform.GetChild(0).gameObject.SetActive(false);
         }
 
