@@ -7,6 +7,7 @@ public class playerflower : MonoBehaviour
 {
     GameObject raycastedObj;
     public Text flowernum;
+    public Image guide;
 
     [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask flowerLayer;
@@ -17,19 +18,23 @@ public class playerflower : MonoBehaviour
     void Start()
     {
         flowernum.enabled = false;
+        guide.enabled = false;
+        
     }
 
     void Update()
     {
         RaycastHit hit;
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
-
+        
         if (Physics.Raycast(transform.position, fwd, out hit, InteractionRange, flowerLayer.value))
         {
             if (hit.collider.CompareTag("flower"))
             {
                 flowernum.enabled = true;
+                guide.enabled = true;
                 raycastedObj = hit.collider.gameObject;
+                StartCoroutine(ActivationRoutine());
             }
         }
         else
@@ -38,4 +43,9 @@ public class playerflower : MonoBehaviour
         }
 
     }
+    private IEnumerator ActivationRoutine()
+     {        
+         yield return new WaitForSeconds(10);
+         Destroy(guide);
+     }
 }

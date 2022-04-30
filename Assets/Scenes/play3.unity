@@ -3211,6 +3211,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.6211007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.0029051546
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -2.9820113e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.007824573
+      objectReference: {fileID: 0}
     - target: {fileID: 5154195526652176693, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_IsActive
@@ -3331,6 +3351,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.099
       objectReference: {fileID: 0}
+    - target: {fileID: 7109211501046690178, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.57950443
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109211501046690178, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.0007922507
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109211501046690178, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.042459756
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109211501046690178, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -1.5640184e-11
+      objectReference: {fileID: 0}
     - target: {fileID: 7469875277584560007, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_Layer
@@ -3350,6 +3390,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: planet
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806852439604021203, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.61561716
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806852439604021203, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.017245073
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806852439604021203, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.016422227
+      objectReference: {fileID: 0}
+    - target: {fileID: 8806852439604021203, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.0051957974
       objectReference: {fileID: 0}
     - target: {fileID: 8811778704801091820, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
