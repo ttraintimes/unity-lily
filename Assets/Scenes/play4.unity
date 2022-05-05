@@ -3100,6 +3100,21 @@ PrefabInstance:
       propertyPath: enterE
       value: 
       objectReference: {fileID: 1437574970}
+    - target: {fileID: 5365094291171244659, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1888629672}
+    - target: {fileID: 5365094291171244659, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: flowernum
+      value: 
+      objectReference: {fileID: 216676472}
+    - target: {fileID: 5365094291171244659, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5460686839741815222, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3218,7 +3233,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1144498726}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686553330}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec47c347f25b945cbae568f4f97de8ef, type: 3}
@@ -5936,30 +5951,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26, type: 3}
---- !u!1 &1686553330 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3887407280502400052, guid: 632a0962eb48649ca89afd8da0f42971,
-    type: 3}
-  m_PrefabInstance: {fileID: 1144498726}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1686553337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686553330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08c6533e4d2ef4442ab1b11d5304f71d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flowernum: {fileID: 216676472}
-  guide: {fileID: 1888629672}
-  InteractionRange: 1
-  flowerLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!1001 &1735411525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6524,7 +6515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1980309743
 Transform:
   m_ObjectHideFlags: 0

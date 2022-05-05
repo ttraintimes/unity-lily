@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 7897345333862530958}
   - component: {fileID: 7779021828742370763}
   - component: {fileID: 5201610742617634967}
+  - component: {fileID: 5365094291171244659}
   m_Layer: 0
   m_Name: Maincam
   m_TagString: Player
@@ -448,6 +449,24 @@ MonoBehaviour:
   enterE: {fileID: 0}
   InteractionRange: 2
   scenetransitionLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &5365094291171244659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887407280502400052}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08c6533e4d2ef4442ab1b11d5304f71d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowernum: {fileID: 0}
+  guide: {fileID: 0}
+  InteractionRange: 1
+  flowerLayer:
     serializedVersion: 2
     m_Bits: 4294967295
 --- !u!1 &3887407280502400054
