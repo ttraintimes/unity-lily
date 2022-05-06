@@ -31,8 +31,8 @@ using System.Collections;
 
         public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
-    private float sensitivityX = 4F;
-    private float sensitivityY = 4F;
+    private float sensitivityX = 2F;
+    private float sensitivityY = 2F;
     private float minimumX = -360F;
     private float maximumX = 360F;
     private float minimumY = -35F;
@@ -82,7 +82,6 @@ using System.Collections;
 
          private void UpdateMovement()
     {
-       // float speed = 3.0f * Time.deltaTime;
         if (Input.GetKey(KeyCode.LeftShift)) {
                 speed=sprintspeed;
             }
@@ -90,7 +89,6 @@ using System.Collections;
                 speed=speed;
             }
         if (controller.isGrounded) {
-              //  movingDirection.y = jumpSpeed;
                 movingDirection.y=1.0f;
             }
 

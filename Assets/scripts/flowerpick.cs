@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class flowerpick : MonoBehaviour
 {
+    public AudioSource TipAudio;
     public GameObject inflower;
     public Text flowernum;
     [HideInInspector]
@@ -18,6 +19,7 @@ public class flowerpick : MonoBehaviour
     public void flower()
     {
         n++;
+        TipAudio.Play();
         flowernum.text = n+" picked";
         inflower.SetActive(true);
     }
