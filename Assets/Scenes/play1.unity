@@ -2315,6 +2315,21 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 6747876283686183055, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: Priority
+      value: 159
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747876283686183055, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747876283686183055, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 12b55ad0a2c7b417fa2be7b141a36a7e, type: 3}
     - target: {fileID: 6961938623760778462, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.b

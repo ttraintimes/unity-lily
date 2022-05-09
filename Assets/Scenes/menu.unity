@@ -408,6 +408,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 153793493959538555, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 245708698569473291, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_IsActive
@@ -643,11 +648,6 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.7058824
       objectReference: {fileID: 0}
-    - target: {fileID: 6747876283686183055, guid: 4127b87a94ccf422898780ff26600a52,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8a2eb69b2d69a4ea58917f924ba13cb6, type: 3}
     - target: {fileID: 6801949122547068763, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_Color.a
@@ -697,6 +697,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166788844252993887, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5717763
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166788844252993887, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.36806598
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4127b87a94ccf422898780ff26600a52, type: 3}

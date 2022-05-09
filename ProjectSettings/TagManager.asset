@@ -9,6 +9,8 @@ TagManager:
   - flower
   - Interactable
   - bgmusic
+  - beach
+  - rain
   layers:
   - Default
   - TransparentFX

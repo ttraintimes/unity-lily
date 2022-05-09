@@ -8,6 +8,8 @@ public class playerflower : MonoBehaviour
     GameObject raycastedObj;
     public Text flowernum;
     public Image guide;
+    public AudioSource BeachAudio;
+    public AudioSource RainAudio;
 
     [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask flowerLayer;
@@ -36,6 +38,14 @@ public class playerflower : MonoBehaviour
                 raycastedObj = hit.collider.gameObject;
                 StartCoroutine(ActivationRoutine());
             }
+            if (hit.collider.CompareTag("beach"))
+            {
+                BeachAudio.Play();
+            }
+            if (hit.collider.CompareTag("rain"))
+            {
+                RainAudio.Play();
+            }
         }
         else
         {
@@ -46,6 +56,6 @@ public class playerflower : MonoBehaviour
     private IEnumerator ActivationRoutine()
      {        
          yield return new WaitForSeconds(10);
-         Destroy(guide);
+         guide.enabled = false;
      }
 }
