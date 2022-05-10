@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4495662085604173214}
   - component: {fileID: 7546370618669370500}
   - component: {fileID: 8168413967806709476}
-  - component: {fileID: 2744159879113163702}
   m_Layer: 0
   m_Name: secondCamera
   m_TagString: MainCamera
@@ -94,23 +93,6 @@ Skybox:
   m_GameObject: {fileID: 310448793855809986}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
---- !u!114 &2744159879113163702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310448793855809986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneAudio: {fileID: 2536330796256989506}
-  InteractionRange: 3
-  scenetransitionLayer:
-    serializedVersion: 2
-    m_Bits: 791
 --- !u!1 &1166908912935605734
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,7 +105,6 @@ GameObject:
   - component: {fileID: 1239959877012288405}
   - component: {fileID: 3334417769654248525}
   - component: {fileID: 4278315172243199537}
-  - component: {fileID: 4058260195815200865}
   m_Layer: 0
   m_Name: thirdCamera
   m_TagString: MainCamera
@@ -205,23 +186,6 @@ Skybox:
   m_GameObject: {fileID: 1166908912935605734}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
---- !u!114 &4058260195815200865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1166908912935605734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneAudio: {fileID: 2536330796256989506}
-  InteractionRange: 3
-  scenetransitionLayer:
-    serializedVersion: 2
-    m_Bits: 791
 --- !u!1 &3276436121420215084
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterE: {fileID: 0}
+  BeachAudio: {fileID: 0}
   InteractionRange: 2
   scenetransitionLayer:
     serializedVersion: 2
@@ -484,7 +449,6 @@ GameObject:
   - component: {fileID: 3887407280500762132}
   - component: {fileID: 3887407280494425202}
   - component: {fileID: 9203077224329883303}
-  - component: {fileID: 3405510442520116372}
   m_Layer: 0
   m_Name: firstCamera
   m_TagString: MainCamera
@@ -567,23 +531,6 @@ Skybox:
   m_GameObject: {fileID: 3887407280502400054}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
---- !u!114 &3405510442520116372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3887407280502400054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 515911ab67e29004faf41f27e1a100b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneAudio: {fileID: 2536330796256989506}
-  InteractionRange: 5
-  scenetransitionLayer:
-    serializedVersion: 2
-    m_Bits: 791
 --- !u!1001 &4814778857582708468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -666,12 +613,6 @@ PrefabInstance:
 --- !u!4 &5666066329924515196 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 896337902994518920, guid: e27cb6104f4f8469e9e7fa56515fc695,
-    type: 3}
-  m_PrefabInstance: {fileID: 4814778857582708468}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &2536330796256989506 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 7053583385554278326, guid: e27cb6104f4f8469e9e7fa56515fc695,
     type: 3}
   m_PrefabInstance: {fileID: 4814778857582708468}
   m_PrefabAsset: {fileID: 0}
