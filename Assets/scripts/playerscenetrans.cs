@@ -8,6 +8,7 @@ public class playerscenetrans : MonoBehaviour
     GameObject raycastedObj;
     ObjectInteraction referencedScript;
     public Image enterE;
+    public AudioSource BeachAudio;
 
     [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask scenetransitionLayer;
@@ -40,6 +41,10 @@ public class playerscenetrans : MonoBehaviour
                     referencedScript = null;
                     raycastedObj = null;
                 }
+            }
+            if (hit.collider.CompareTag("beach"))
+            {
+                BeachAudio.Play();
             }
         }
         else

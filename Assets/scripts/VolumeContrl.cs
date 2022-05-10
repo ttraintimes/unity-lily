@@ -10,6 +10,9 @@ public class VolumeContrl : MonoBehaviour
     public Slider mySlider;
     public static float curVolume=-1;
     public AudioSource bgAS;
+    public AudioSource efffAS;
+    public AudioSource effAS;
+    public AudioSource efAS;
 
     private void Start()
     {
@@ -18,6 +21,9 @@ public class VolumeContrl : MonoBehaviour
         if (curVolume != -1)
         {
             bgAS.volume = curVolume;
+            efffAS.volume = curVolume;
+            effAS.volume = curVolume;
+            efAS.volume = curVolume;
             mySlider.value = curVolume;
         }
 
@@ -27,6 +33,9 @@ public class VolumeContrl : MonoBehaviour
     }
     void SetVolume(float nowValue)
     {
+        efffAS.volume = nowValue;
+        effAS.volume = nowValue;
+        efAS.volume = nowValue;
         bgAS.volume = nowValue;
         curVolume = nowValue;
     }
