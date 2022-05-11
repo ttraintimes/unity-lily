@@ -27,7 +27,7 @@ public class endscene : MonoBehaviour
 
         if (Physics.Raycast(transform.position, fwd, out hit, InteractionRange, scenetransitionLayer.value))
         {
-            if (hit.collider.CompareTag("end"))
+            if (hit.collider.CompareTag("storyend"))
             {
                 EndScene.SetActive(true);
                 raycastedObj = hit.collider.gameObject;

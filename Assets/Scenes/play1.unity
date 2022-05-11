@@ -422,7 +422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ad7e25f1098444c90b705d8b7ab729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterE: {fileID: 577014176}
+  nextE: {fileID: 0}
+  previousE: {fileID: 0}
+  endE: {fileID: 0}
   BeachAudio: {fileID: 0}
   InteractionRange: 2
   scenetransitionLayer:
@@ -2597,6 +2599,30 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 522135521}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &522135523 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2766742950562511146, guid: 4127b87a94ccf422898780ff26600a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 522135521}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &522135524 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3467580143224425176, guid: 4127b87a94ccf422898780ff26600a52,
+    type: 3}
+  m_PrefabInstance: {fileID: 522135521}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531911191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4693674458262647175, guid: 5295d91cb49b04a7da0ba1ddfb016411,
@@ -4241,9 +4267,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5201610742617634967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
+      propertyPath: endE
+      value: 
+      objectReference: {fileID: 522135523}
+    - target: {fileID: 5201610742617634967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: nextE
+      value: 
+      objectReference: {fileID: 577014176}
+    - target: {fileID: 5201610742617634967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
       propertyPath: enterE
       value: 
       objectReference: {fileID: 577014176}
+    - target: {fileID: 5201610742617634967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: previousE
+      value: 
+      objectReference: {fileID: 522135524}
     - target: {fileID: 5490097822845059074, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -5547,7 +5588,7 @@ PrefabInstance:
     - target: {fileID: 2402808712891150912, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: newSceneName
-      value: play3
+      value: play2
       objectReference: {fileID: 0}
     - target: {fileID: 2416450566627867251, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
@@ -5824,6 +5865,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7469875277584560007, guid: ab61874320feb4fb3bbdacba044ff20e,
+        type: 3}
+      propertyPath: m_TagString
+      value: next
+      objectReference: {fileID: 0}
     - target: {fileID: 7766757650574100257, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: crosshairNormal
@@ -5837,7 +5883,7 @@ PrefabInstance:
     - target: {fileID: 8061950971667709593, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: newSceneName
-      value: play4
+      value: start
       objectReference: {fileID: 0}
     - target: {fileID: 8291470010148278288, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}

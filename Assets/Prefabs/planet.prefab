@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 121363796505217119}
   m_Layer: 8
   m_Name: d2 (1)
-  m_TagString: scenetransition
+  m_TagString: previous
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 2402808712891150912}
   m_Layer: 8
   m_Name: d5
-  m_TagString: scenetransition
+  m_TagString: next
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 9093985634674104556}
   m_Layer: 8
   m_Name: d4 (1)
-  m_TagString: scenetransition
+  m_TagString: previous
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -754,7 +754,7 @@ GameObject:
   - component: {fileID: 8061950971667709593}
   m_Layer: 8
   m_Name: d5 (1)
-  m_TagString: scenetransition
+  m_TagString: previous
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,7 +7,9 @@ public class playerscenetrans : MonoBehaviour
 {
     GameObject raycastedObj;
     ObjectInteraction referencedScript;
-    public Image enterE;
+    public Image nextE;
+    public Image previousE;
+    public Image endE;
     public AudioSource BeachAudio;
 
     [SerializeField] private int InteractionRange = 2;
@@ -18,7 +20,9 @@ public class playerscenetrans : MonoBehaviour
 
     void Start()
     {
-        enterE.enabled = false;
+        nextE.enabled = false;
+        previousE.enabled = false;
+        endE.enabled = false;
     }
 
     void Update()
@@ -28,9 +32,37 @@ public class playerscenetrans : MonoBehaviour
 
         if (Physics.Raycast(transform.position, fwd, out hit, InteractionRange, scenetransitionLayer.value))
         {
-            if (hit.collider.CompareTag("scenetransition"))
+            if (hit.collider.CompareTag("next"))
             {
-                enterE.enabled = true;
+                nextE.enabled = true;
+                raycastedObj = hit.collider.gameObject;
+                referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
+
+                if (Input.GetKeyDown("e") && (referencedScript != null))
+                {
+                    referencedScript.interact();
+                    raycastedObj = null;
+                    referencedScript = null;
+                    raycastedObj = null;
+                }
+            }
+            if (hit.collider.CompareTag("previous"))
+            {
+                previousE.enabled = true;
+                raycastedObj = hit.collider.gameObject;
+                referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
+
+                if (Input.GetKeyDown("e") && (referencedScript != null))
+                {
+                    referencedScript.interact();
+                    raycastedObj = null;
+                    referencedScript = null;
+                    raycastedObj = null;
+                }
+            }
+            if (hit.collider.CompareTag("end"))
+            {
+                endE.enabled = true;
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
 
@@ -49,7 +81,9 @@ public class playerscenetrans : MonoBehaviour
         }
         else
         {
-            enterE.enabled = false;
+            nextE.enabled = false;
+            previousE.enabled = false;
+            endE.enabled = false;
         }
 
     }

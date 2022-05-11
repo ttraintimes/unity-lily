@@ -12,6 +12,9 @@ TagManager:
   - beach
   - rain
   - end
+  - previous
+  - next
+  - storyend
   layers:
   - Default
   - TransparentFX
