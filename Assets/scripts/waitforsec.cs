@@ -13,16 +13,12 @@ public class waitforsec : MonoBehaviour
  
      private IEnumerator ActivationRoutine()
      {        
-         //Wait for 3 secs.
          yield return new WaitForSeconds(3);
- 
-         //Turn My game object that is set to false(off) to True(on).
+
          objectToActivate.SetActive(true);
  
-         //Turn the Game Oject back off after 10 sec.
          yield return new WaitForSeconds(10);
  
-         //Game object will turn off
          objectToActivate.SetActive(false);
      }
 }
