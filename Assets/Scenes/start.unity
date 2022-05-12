@@ -3169,6 +3169,11 @@ PrefabInstance:
       propertyPath: crosshairInteract
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4382759858039757444, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 5201610742617634967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: endE
@@ -3262,12 +3267,32 @@ PrefabInstance:
     - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: speed
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: normalspeed
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.14595276
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.15462714
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.0010953478
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.55003613
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}

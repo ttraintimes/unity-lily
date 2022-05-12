@@ -3418,6 +3418,11 @@ PrefabInstance:
       propertyPath: m_CustomSkybox
       value: 
       objectReference: {fileID: 2100000, guid: 54fe2f000ad8f424fb63cc3ea0ae2bb2, type: 2}
+    - target: {fileID: 4382759858039757444, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 4495662085604173214, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: near clip plane
@@ -3543,10 +3548,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -185.703
       objectReference: {fileID: 0}
+    - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.13787131
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.16689007
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.0010326217
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.54724735
+      objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8168413967806709476, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
