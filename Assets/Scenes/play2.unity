@@ -179,6 +179,46 @@ PrefabInstance:
       propertyPath: crosshairInteract
       value: 
       objectReference: {fileID: 904636574}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.019999297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9994297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.033381265
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.005110696
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00017070863
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908210409596185202, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.8260002
+      objectReference: {fileID: 0}
     - target: {fileID: 3405510442520116372, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: crosshairNormal
@@ -453,6 +493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
+        type: 3}
+      propertyPath: sprintspeed
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
@@ -2499,22 +2544,22 @@ PrefabInstance:
     - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_Radius
-      value: 0.42206785
+      value: 0.66116697
       objectReference: {fileID: 0}
     - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_Center.x
-      value: 0.13
+      value: 0.057774942
       objectReference: {fileID: 0}
     - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.8120623
+      value: 0.81205994
       objectReference: {fileID: 0}
     - target: {fileID: 4789327618397557100, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
       propertyPath: m_Center.z
-      value: 0.24
+      value: 0.073126815
       objectReference: {fileID: 0}
     - target: {fileID: 5154195526652176693, guid: ab61874320feb4fb3bbdacba044ff20e,
         type: 3}
