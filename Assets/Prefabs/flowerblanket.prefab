@@ -203,6 +203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: flower1
       objectReference: {fileID: 0}
+    - target: {fileID: 7006438795597104465, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7669645945568796651, guid: 1da1b6d8c7c3b4782bcaf202c7b04a26,
         type: 3}
       propertyPath: m_RootOrder
