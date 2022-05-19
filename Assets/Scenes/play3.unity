@@ -3747,38 +3747,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
-      propertyPath: speed
+      propertyPath: walkspeed
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
-        type: 3}
-      propertyPath: sprintspeed
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.13787131
+      value: 0.24066252
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_Size.z
-      value: 0.16689007
+      value: 0.24544905
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_Center.x
-      value: -0.0010326217
+      value: 0.004343112
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_Center.z
-      value: -0.54724735
+      value: -0.5441507
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8168413967806709476, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
