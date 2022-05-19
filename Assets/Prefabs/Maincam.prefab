@@ -388,7 +388,8 @@ MonoBehaviour:
   secondCamera: {fileID: 4495662085604173214}
   thirdCamera: {fileID: 1239959877012288405}
   controller: {fileID: 3887407280496792052}
-  speed: 5
+  speed: 2
+  walkspeed: 2
   sprintspeed: 10
   gravity: 5
   axes: 0

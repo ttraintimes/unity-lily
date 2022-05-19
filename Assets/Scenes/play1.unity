@@ -422,9 +422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ad7e25f1098444c90b705d8b7ab729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextE: {fileID: 0}
-  previousE: {fileID: 0}
-  endE: {fileID: 0}
+  nextE: {fileID: 577014176}
+  previousE: {fileID: 522135524}
+  endE: {fileID: 522135523}
   BeachAudio: {fileID: 0}
   InteractionRange: 2
   scenetransitionLayer:

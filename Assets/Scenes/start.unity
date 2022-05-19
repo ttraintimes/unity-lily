@@ -3360,13 +3360,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}
-      propertyPath: speed
+      propertyPath: walkspeed
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7897345333862530958, guid: 632a0962eb48649ca89afd8da0f42971,
-        type: 3}
-      propertyPath: normalspeed
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7968617029474591967, guid: 632a0962eb48649ca89afd8da0f42971,
         type: 3}

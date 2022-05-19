@@ -22,8 +22,9 @@ using System.Collections;
     //
         public CharacterController controller;
 
-        public float speed;
-        public float sprintspeed=10f;
+        public float speed = 2f;
+        public float walkspeed = 2f;
+        public float sprintspeed = 8f;
       //  public float speed;
       //  public float jumpSpeed;
         public float gravity;
@@ -85,8 +86,8 @@ using System.Collections;
         if (Input.GetKey(KeyCode.LeftShift)) {
                 speed=sprintspeed;
             }
-            else{
-                speed=speed;
+        else {
+                speed=walkspeed;
             }
         if (controller.isGrounded) {
                 movingDirection.y=1.0f;
