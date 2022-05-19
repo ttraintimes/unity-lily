@@ -26,6 +26,7 @@ public class EscMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             OnEscClick();
+            Cursor.visible = true;
         
         }
     }
@@ -45,6 +46,7 @@ public class EscMenu : MonoBehaviour
             escMenu.SetActive(true);
             Time.timeScale = 0;
             onMenuAppear.Invoke();
+            Cursor.visible = true;
         }
     }
 

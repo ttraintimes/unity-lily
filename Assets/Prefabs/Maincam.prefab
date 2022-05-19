@@ -299,6 +299,7 @@ GameObject:
   - component: {fileID: 7779021828742370763}
   - component: {fileID: 5201610742617634967}
   - component: {fileID: 5365094291171244659}
+  - component: {fileID: 8497837775915021421}
   m_Layer: 0
   m_Name: Maincam
   m_TagString: Player
@@ -388,35 +389,6 @@ MonoBehaviour:
   firstCamera: {fileID: 3887407280500762132}
   secondCamera: {fileID: 4495662085604173214}
   thirdCamera: {fileID: 1239959877012288405}
-  spaceMenu: {fileID: 9163152555501487397}
-  onSpaceDown:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7897345333862530958}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onSpaceUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7897345333862530958}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   controller: {fileID: 3887407280496792052}
   speed: 2
   walkspeed: 2
@@ -469,6 +441,18 @@ MonoBehaviour:
   flowerLayer:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &8497837775915021421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3887407280502400052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4c8c00c790d4db790fe468a5c62d70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3887407280502400054
 GameObject:
   m_ObjectHideFlags: 0
