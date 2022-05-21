@@ -2457,6 +2457,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: beach
       objectReference: {fileID: 0}
+    - target: {fileID: 932674082621721430, guid: 85a1c12d6cc014fc88493febbf806b37,
+        type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85a1c12d6cc014fc88493febbf806b37, type: 3}
 --- !u!1 &819550103
