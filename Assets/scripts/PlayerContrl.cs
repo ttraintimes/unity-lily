@@ -32,12 +32,12 @@ using System.Collections;
 
         public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
-    private float sensitivityX = 2F;
-    private float sensitivityY = 2F;
+    private float sensitivityX = 1F;
+    private float sensitivityY = 1F;
     private float minimumX = -360F;
     private float maximumX = 360F;
     private float minimumY = -35F;
-    private float maximumY = 30F;
+    private float maximumY = 20F;
     private float rotationX = 0F;
     private float rotationY = 0F;
     private Quaternion originalRotation;
