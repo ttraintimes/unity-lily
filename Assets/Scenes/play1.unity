@@ -1802,7 +1802,7 @@ PrefabInstance:
     - target: {fileID: 482024256410982907, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 487925120709267814, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -1854,12 +1854,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1042227108208600513, guid: 4127b87a94ccf422898780ff26600a52,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 3ae579aa3b8af42019bcf1a909212007,
-        type: 3}
     - target: {fileID: 1475405851479863413, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1873,7 +1867,7 @@ PrefabInstance:
     - target: {fileID: 1781891839784008360, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2088368762126539181, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -1908,7 +1902,7 @@ PrefabInstance:
     - target: {fileID: 2604950775311488147, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 3138198856793097603, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -1929,6 +1923,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 3717133681518007486, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3910316599176576921, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2025,6 +2024,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4211328116844726203, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 4219031523095795685, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_Colors.m_NormalColor.b
@@ -2053,7 +2057,7 @@ PrefabInstance:
     - target: {fileID: 4376074921196644383, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4391422324817558425, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2128,7 +2132,7 @@ PrefabInstance:
     - target: {fileID: 5370160787935889176, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5451400170210142277, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2138,7 +2142,7 @@ PrefabInstance:
     - target: {fileID: 5558815118794993590, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 5707700023125475962, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2174,6 +2178,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073002323407195350, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6073002323552776129, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2298,7 +2307,7 @@ PrefabInstance:
     - target: {fileID: 6073002323723358384, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6073002323776363522, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2328,7 +2337,7 @@ PrefabInstance:
     - target: {fileID: 6190953202386427410, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6228970330845479736, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2353,7 +2362,7 @@ PrefabInstance:
     - target: {fileID: 6494166196749739212, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6578326779239366582, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2363,7 +2372,7 @@ PrefabInstance:
     - target: {fileID: 6581635216597326447, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6961938623760778462, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
@@ -2570,6 +2579,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7789497200371306864, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 7818475114765080725, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
@@ -2578,7 +2592,7 @@ PrefabInstance:
     - target: {fileID: 8295276529245245046, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 8470042733156728087, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
