@@ -2549,12 +2549,17 @@ PrefabInstance:
         type: 3}
       propertyPath: effAS
       value: 
-      objectReference: {fileID: 1043783219}
+      objectReference: {fileID: 1870067447}
     - target: {fileID: 5243299352135550056, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: efffAS
       value: 
-      objectReference: {fileID: 1870067447}
+      objectReference: {fileID: 1043783219}
+    - target: {fileID: 5243299352135550056, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: effffAS
+      value: 
+      objectReference: {fileID: 1043783219}
     - target: {fileID: 5556585748981295131, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_IsActive

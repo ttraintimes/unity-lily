@@ -10,6 +10,7 @@ public class letterUI : MonoBehaviour
     ObjectInteraction referencedScript;
     public GameObject letterScene;
     public UnityEvent onMenuAppear;
+    public AudioSource LetterAudio;
 
     [SerializeField] private int InteractionRange = 2;
     [SerializeField] private LayerMask scenetransitionLayer;
@@ -32,6 +33,7 @@ public class letterUI : MonoBehaviour
             if (hit.collider.CompareTag("letter"))
             {
                 letterScene.SetActive(true);
+                LetterAudio.Play();
                 onMenuAppear.Invoke();
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
