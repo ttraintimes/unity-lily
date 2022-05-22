@@ -263,7 +263,7 @@ Material:
     - _SoftnessFade: 0.4
     - _Specular: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.39
+    - _Speed: 0.62
     - _SrcBlend: 5
     - _Tan2ObjCustomU: 1
     - _Tan2ObjCustomV: 1
@@ -311,7 +311,7 @@ Material:
     - maxDist: 10
     - minDist: 1
     m_Colors:
-    - _Color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+    - _Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 0}
     - _CurvatureMultOffset: {r: 0, g: 0, b: 0, a: 0}
     - _CutoffEdgeGlow: {r: 0, g: 0, b: 0, a: 0.02}
