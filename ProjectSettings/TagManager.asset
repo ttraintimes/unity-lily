@@ -15,6 +15,7 @@ TagManager:
   - previous
   - next
   - storyend
+  - letter
   layers:
   - Default
   - TransparentFX
