@@ -32052,7 +32052,7 @@ Transform:
   m_LocalScale: {x: 658.405, y: 267.10822, z: 714.4435}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 22.686, y: 19.268002, z: 0}
 --- !u!199 &743232607216445285
 ParticleSystemRenderer:
@@ -36881,7 +36881,7 @@ PrefabInstance:
     - target: {fileID: 5463868612063313141, guid: 7f230d1e2c930459d97b156b8335ca95,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5463868612063313141, guid: 7f230d1e2c930459d97b156b8335ca95,
         type: 3}
