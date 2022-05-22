@@ -714,7 +714,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.9198113, b: 0.9198113, a: 1}
-  m_Intensity: 4
+  m_Intensity: 7
   m_Range: 0.4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -753,7 +753,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1600,6 +1600,11 @@ PrefabInstance:
       propertyPath: efffAS
       value: 
       objectReference: {fileID: 164716306}
+    - target: {fileID: 5243299352135550056, guid: 4127b87a94ccf422898780ff26600a52,
+        type: 3}
+      propertyPath: effffAS
+      value: 
+      objectReference: {fileID: 759533451}
     - target: {fileID: 5707700023125475962, guid: 4127b87a94ccf422898780ff26600a52,
         type: 3}
       propertyPath: m_IsActive
@@ -3388,7 +3393,7 @@ PrefabInstance:
     - target: {fileID: 8395755266693192837, guid: 184ffc3cd21c44e448bb2c16ced4769a,
         type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8395755266693192837, guid: 184ffc3cd21c44e448bb2c16ced4769a,
         type: 3}
@@ -3794,7 +3799,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.9198113, b: 0.9198113, a: 1}
-  m_Intensity: 4
+  m_Intensity: 8
   m_Range: 2.34
   m_SpotAngle: 50
   m_InnerSpotAngle: 5
@@ -3833,7 +3838,7 @@ Light:
     serializedVersion: 2
     m_Bits: 807
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -4053,7 +4058,12 @@ PrefabInstance:
     - target: {fileID: 919005998684061937, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919005998684061937, guid: 7ba9b25ad73c645fd9ae06fac478884c,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 919005998684061937, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
@@ -4213,7 +4223,12 @@ PrefabInstance:
     - target: {fileID: 1512657692435613912, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512657692435613912, guid: 7ba9b25ad73c645fd9ae06fac478884c,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1512657692435613912, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
@@ -4318,7 +4333,12 @@ PrefabInstance:
     - target: {fileID: 1649822641445933926, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1649822641445933926, guid: 7ba9b25ad73c645fd9ae06fac478884c,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1649822641445933926, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
@@ -4643,7 +4663,12 @@ PrefabInstance:
     - target: {fileID: 4838165474376766921, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4838165474376766921, guid: 7ba9b25ad73c645fd9ae06fac478884c,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4838165474376766921, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
@@ -5143,7 +5168,7 @@ PrefabInstance:
     - target: {fileID: 7335000774485178983, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7335000774485178983, guid: 7ba9b25ad73c645fd9ae06fac478884c,
         type: 3}
