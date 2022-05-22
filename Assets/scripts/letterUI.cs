@@ -35,7 +35,6 @@ public class letterUI : MonoBehaviour
                 onMenuAppear.Invoke();
                 raycastedObj = hit.collider.gameObject;
                 referencedScript = raycastedObj.GetComponent<ObjectInteraction>();
-                Time.timeScale = 0;
             }
         }
         else
